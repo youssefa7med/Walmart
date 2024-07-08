@@ -3,6 +3,7 @@ import pickle
 import time
 from streamlit_lottie import st_lottie
 import json
+import sklearn
 
 st.set_page_config(
     page_title="Prediction",
@@ -21,7 +22,12 @@ lottie_animation = load_lottie_file('predection_animation.json')
 st_lottie(lottie_animation, height=300, key="prediction")
 
 
-model = pickle.load(open('model.pkl', 'rb'))
+try:
+    with open('model.pkl', 'rb') as f:
+        model = pickle.load(f)
+except Exception as e:
+    st.error(f"Error loading the model: {e}")
+    st.stop()
 
 store_types = {
     "Apparel": 1,
