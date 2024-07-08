@@ -1,6 +1,8 @@
 
 # Walmart Sales Prediction Using Machine Learning
-
+---
+#[streamlit](https://walmart-predection.streamlit.app/)
+---
 ## Overview
 
 This project aims to predict Walmart sales using machine learning. By analyzing various features such as store type, Consumer Price Index (CPI), unemployment rate, fuel price, and temperature, we can estimate the sales for a given period. This predictive model can help Walmart optimize inventory, staffing, and marketing strategies.
