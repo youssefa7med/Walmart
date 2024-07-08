@@ -1,7 +1,7 @@
 
 # Walmart Sales Prediction Using Machine Learning
 ---
-#[streamlit](https://walmart-predection.streamlit.app/)
+[Final App](https://walmart-predection.streamlit.app/)
 ---
 ## Overview
 
