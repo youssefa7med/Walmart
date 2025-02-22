@@ -1,4 +1,5 @@
 # Walmart Sales Prediction
+![Walmart GIF](https://c.tenor.com/ds__jcO7nU0AAAAC/walmart-store.gif)
 
 This project involves the development of a machine learning model to predict Walmart sales based on various input features. The application, built using Streamlit, provides an interactive interface for users to input data and obtain sales forecasts, facilitating better business decisions and planning.
 
